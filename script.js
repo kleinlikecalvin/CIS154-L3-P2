@@ -18,6 +18,7 @@ function writeWindow(){
 
     //favNum get saved as a string which is passed to favNumParsed and the parseInt method turns it into a number
     const favNumParsed = parseInt(favNum);
+    
     windowVar.document.write("<div style='color: red; font-weight: bold; text-align: center;'>"); //write something to the parent window, you can use tags and inline css
     windowVar.document.write("Hello " + tbValue + ", your favorite number is " + favNumParsed);
     windowVar.document.write("</div>");
